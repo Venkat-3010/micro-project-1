@@ -5,6 +5,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+:root{
+    --white: #ffffff;
+    --black: #000000;
+}
+
 .top {
     background-color: #fecd9e;
     display: flex;
@@ -40,15 +45,15 @@
 }
 
 .top button {
-    background-color: black;
+    background-color: var(--black);
     width: 216px;
     border: none;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .top input[type="email"] {
-    border: 4px solid #000000;
-    background-color: #ffffff;
+    border: 4px solid var(--black);
+    background-color: var(--white);
     padding: 10px;
 }
 
@@ -67,7 +72,7 @@
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .footer {
@@ -83,7 +88,7 @@
 
 .footer a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--white);
     font-weight: 400;
     font-size: 20px;
 }
